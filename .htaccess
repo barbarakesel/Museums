@@ -1,0 +1,15 @@
+AddDefaultCharset UTF8
+
+RewriteEngine On
+RewriteBase /
+
+# Правило для перезаписи URL
+RewriteRule ^news$ news.php [L]
+RewriteRule ^events$ events.php [L]
+RewriteRule ^museums$ museums.php [L]
+RewriteRule ^exhibition$ exhibition.php [L]
+RewriteRule ^event$ event.php [L]
+RewriteRule ^museum$ museum.php [L]
+RewriteRule ^new$ new.php [L]
+
+# Добавляйте дополнительные правила по мере необходимости
